@@ -78,7 +78,7 @@ function BookRepo() {
 
     return (
         <div>
-            <Header cart={cart} />
+            <Header cart={cart} allBooks={bookData.slice(0,100)}/>
             <br /><br/><br/><br/>
             <Container fluid>
                 <ReactTable
@@ -89,11 +89,7 @@ function BookRepo() {
                     filterable={true}
                 />
             </Container>
-            {/* <CardDeck>
-                {
-                    bookData ? bookData.map(data => <Book data={data} key={data.bookID} />) : null
-                }
-            </CardDeck> */}
+            
             <br/>
         </div>
     )
