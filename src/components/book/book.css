@@ -1,0 +1,27 @@
+.book-card {
+    min-width: 150px;
+    width: 200px;
+    text-align: left;
+}
+
+.book-img {
+    height: 100px;
+    width: 100px;
+    margin: auto;
+}
+
+.card {
+    border: none;
+}
+
+.card-title {
+    margin: 0px;
+}
+
+.card-text {
+    margin: 0px;
+}
+
+.rating-count {
+    font-size: small;
+}
